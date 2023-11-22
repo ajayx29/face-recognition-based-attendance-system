@@ -1,7 +1,9 @@
 # face-recognition-based-attendance-system
 
 
-This repository contains code for facial recognition based attendance system using openCV and python with a tkinter gui interface. If you want to test the code then run train.py file
+This repository contains code for face recognition based attendance system using openCV and python with a tkinter gui interface. 
+
+Run: train.py
 
 Technology used :
 -openCV (Opensource Computer Vision)
@@ -10,7 +12,9 @@ Technology used :
 
 
 
-When we run train.py a window is opened and ask for Enter Id and Enter Name. 
-After enter name and id then we have to click Take Images button. By clicking Take Images camera of running computer is opened and it start taking image sample of person.This Id and Name is stored in folder StudentDetails and file name is StudentDetails.csv. It takes 60 images as sample and store them in folder TrainingImage.After completion it notify that iamges saved.
-After taking image sample we have to click Train Image button.Now it take few seconds to train machine for the images that are taken by clicking Take Image button and creates a Trainner.yml file and store in TrainingImageLabel folder.
-Now all initial setups are done. By clicking Track Image button camera of running machine is opened again. If face is recognised by system then Id and Name of person is shown on Image. Press Q(or q) for quit this window.After quitting it attendance of person will be stored in Attendance folder as csv file with name, id, date and time and it is also available in window.
+When we run train.py, a window is pops open and asks for Id and Name of the person. 
+After enter the name and id, we have to click Take Images button. By clicking on it, the camera of running computer is opened and it starts taking image samples of the person. This Id and Name is stored in a folder named 'StudentDetails' and file name is 'StudentDetails.csv'. It takes 60 images as sample and store them in folder named 'TrainingImage'. After completion it notifies that iamges have been saved.
+
+After taking image samples, we have to click Train Image button. Now it take few seconds to train with the images that were taken earlier and creates a 'Trainner.yml' file and store in 'TrainingImageLabel' folder.
+Now all initial setups are done. By clicking Track Image button camera of running machine is opened again. If face is recognised by system, then the Id and Name of person is shown on screen. 
+Press Q(or q) for quit this window. After quitting it attendance of person will be stored in Attendance folder as csv file with name, id, date and time.
